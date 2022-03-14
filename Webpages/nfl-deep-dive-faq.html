@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>NFL Salary Cap Analysis</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- CSS File -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style2.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+
+    <div class="d-flex align-items-center justify-content-between">
+      <a href="nfl-deep-dive-home.html" class="logo d-flex align-items-center">
+        <img src="assets/img/football.jpeg" alt="">
+      </a>
+      <i class="bi bi-list toggle-sidebar-btn"></i>
+    </div>
+    <!-- End Logo -->
+
+  </header>
+  <!-- ======= End Header ======= -->
+
+  <!-- ======= Sidebar ======= -->
+  <aside id="sidebar" class="sidebar">
+
+    <ul class="sidebar-nav" id="sidebar-nav">
+
+      <li class="nav-item">
+        <a class="nav-link " href="nfl-deep-dive-home.html">
+          <i class="bi bi-grid"></i>
+          <span>Home</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link " href="player-salary-z-scores.html">
+          <i class="bi bi-file-earmark"></i>
+          <span>Player Salary Z-Score</span>
+        </a>
+      </li><!-- End Player Salary by Position Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link " href="player-salary-by-position.html">
+          <i class="bi bi-file-earmark"></i>
+          <span>Salary by Position</span>
+        </a>
+      </li><!-- End Player Salary by Position Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link " href="salary-cap-spendvwins.html">
+          <i class="bi bi-file-earmark"></i>
+          <span>Team Cap Spent vs Win %</span>
+        </a>
+
+      </li><!-- End Salary Cap Spend vs Wins Page Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link " href="win-percent-by-salary-cap.html">
+          <i class="bi bi-file-earmark"></i>
+          <span>Win % by Cap Hit</span>
+        </a>
+      </li><!-- Win Percent by Salary Cap Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link" href="nfl-deep-dive-faq.html">
+          <i class="bi bi-file-earmark"></i>
+          <span>F.A.Q</span>
+        </a>
+      </li><!-- End F.A.Q Page Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link" href="nfl-deep-dive-profiles.html">
+          <i class="bi bi-file-earmark"></i>
+          <span>Analyst Profiles</span>
+        </a>
+      </li><!-- End F.A.Q Page Nav -->
+    </ul>
+
+  </aside>
+  <!-- ======= End Sidebar ======= -->
+
+  <!-- ==== Start Main Body ==== -->
+
+  <main id="main" class="main">
+
+    <div class="pagetitle">
+      <h1>Frequently Asked Questions</h1>
+
+    </div><!-- End Page Title -->
+
+    <section class="section faq">
+      <div class="row">
+        <div class="col-lg-12">
+
+          <div class="card basic">
+            <div class="card-body">
+
+              <div>
+                <h6>1. What is a team's "salary cap"?</h6>
+                <p>A salary cap is the maximum amount of money a team can pay its players in a given year. In 2017, the
+                  cap was $167 million; in 2021 the cap was 182.5 million. The cap is not necessarily the same for every
+                  team in a
+                  given year, since unspent cap from the previous year is rolled over to the next.</p>
+              </div>
+
+              <div class="pt-2">
+                <h6>2. What does "cap hit" mean?</h6>
+                <p>A player’s cap hit is determined as the average annual value of their current contract. A player’s
+                  cap hit is not necessarily how much they are paid in a given year, but how much they will count
+                  against a team’s salary cap during that season.</p>
+              </div>
+
+              <div class="pt-2">
+                <h6>3. What is "dead cap" or "dead money"?</h6>
+                <p>When a player is cut or traded, this is the guaranteed money left on a player’s contract at the time
+                  they were let go. Teams attempt to avoid too much "dead money" in their salary caps. But dead money is
+                  simply a sunk cost.</p>
+              </div>
+
+              <div class="pt-2">
+                <h6>4. What is a "Z-score"?</h6>
+                <p>A statistics term that refers to the number of standard deviations of a given data point, above or
+                  below, the mean (average) of the population. It is also referred to as a standard score. On this site,
+                  we are using the Z-Score to visualize the relative salary% for each player, by year and team.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-12">
+
+      </div>
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+    <div class="copyright">
+      <strong><span>Created By: Team Dain Bramage</span></strong>
+    </div>
+    <div class="credits">
+    </div>
+  </footer>
+  <!-- ======= End Footer ====== -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+
+</body>
+
+</html>
